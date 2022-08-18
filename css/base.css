@@ -1,0 +1,31 @@
+.list-item strong, .subtitle {
+    display:block;
+    background-color: rgb(226, 226, 226);
+    padding-left: 5px;
+}
+
+.list-item strong:hover, .subtitle:hover {
+    cursor:pointer;
+}
+
+.list-item p{
+    margin-left:10px;
+    margin-top:10px;
+    display: none;
+}
+
+.subtitle {
+    padding: 15px 5px;
+}
+
+.top-active {
+    background-color: rgb(192, 192, 192) !important;
+}
+
+.bottom-active {
+    display:block  !important;
+}
+
+.subtitle-content {
+    display: none;
+}
